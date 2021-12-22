@@ -1,0 +1,110 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+    
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: red;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 3.8rem;
+    width: 100%;
+}
+
+header .btn{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    margin: 0px 25px;
+}
+
+.linha{
+    width: 100%;
+    height: 1rem;
+    background: rgb(123, 6, 6);
+}
+
+#container{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+#filtro{
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 0px;
+    width: 40vw;
+    height: 500px;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linha2{
+    background-color: red;
+    width: 1vw;
+    height: 500px;
+    margin: 5px;
+    margin-top: 10px;
+}
+
+#contratar{
+    background-color: red;
+    width: 60vw;
+    height: 500px;
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 25px;
+    display: flex-end;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.contratos{
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.btn-contratar{
+    padding:  30px 50px;
+    border-radius: 100px;
+    border: none;
+}
+.filtrar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select{
+    width: 70%;
+    padding: 5px;
+}
+
+p, h3{
+    margin: 5px;
+}
